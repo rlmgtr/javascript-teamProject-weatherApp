@@ -5,7 +5,7 @@
   "homepage": "https://goitacademy.github.io/javascript-teamProject-weatherApp",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /javascript-teamProject-weatherApp/"
+    "build": "parcel build src/*.html --public-url/javascript-teamProject-weatherApp/"
   },
   "repository": {
     "type": "git",
