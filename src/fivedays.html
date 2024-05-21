@@ -11,7 +11,7 @@
     <body>
         <section class="search-location container">
             <form class="search-location__form js-form">
-                <input id="inputCity" name="query" placeholder="Enter the city">
+                <input id="cityInput" name="query" placeholder="Enter the city">
                 <button type="button" class="search-location__form-btn append" id="js-btnAdd"></button>
             </form>
             <div class="search-location__slider">
@@ -35,7 +35,7 @@
         </section>
 
         <section class="current-weather5 container">
-         <h2>City name here</h2>   
+         <h2 id="cityName">City name here</h2>   
             
             
             
@@ -47,7 +47,7 @@
         <div class="button-wrapper5">
             <a href="index.html">  <button class="button-today">Today</button></a>
 
-            <a href="fivedays.html"><button class="button-forecast">5 days</button>
+            <a href="fivedays.html"><button onclick="getFiveDays()" class="button-forecast">5 days</button>
         </div>
        
         <!-- Js Script -->

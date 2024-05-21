@@ -1,4 +1,6 @@
 function getFiveDaysWeather() {
-    const inputCity = document.getElementById("inputcity;")
-    const 
+    const cityInput = document.getElementById("inputcity");
+    const cityName = document.getElementById("cityname");
+    cityName.innerHTML = cityInput.value 
 }
+
