@@ -462,6 +462,21 @@ body {
     margin-bottom: 32px
 }
 
+.current-weather5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Lato,sans-serif;
+    color: #fff;
+    box-shadow: 0 8px 43px rgba(16,33,54,.8);
+    border-radius: 35px;
+    background-color: rgba(16,33,54,.933333);
+    padding: 38px 60px 40px;
+    position: relative;
+    margin-bottom: 32px
+}
+
 .current-weather__icon {
     height: 100px;
     width: 100px;
@@ -573,6 +588,14 @@ body {
     margin: 0 auto 32px;
     width: 280px
 }
+
+.button-wrapper5 {
+    display: center;
+    justify-content: space-between;
+    margin: 0 auto 32px;
+    width: 280px
+}
+
 
 @media (min-width: 768px) {
     .button-wrapper {
