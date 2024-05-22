@@ -1,0 +1,36 @@
+.fdwContainer {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+.wCard {
+ padding: 20px;
+ border-style: dashed;
+ border-color:black;
+ margin: 30px;   
+}
+
+.minMax {
+    display: flex;
+}
+
+.min{
+    margin-right: 10px;
+}
+
+.hrlyforecast {
+    display: flex;
+}
+
+.hrCard {}
+
+.fiveDaysforecast {
+    
+}
+
+.everythreehrscontainer {
+    display: flex;
+
+    
+}

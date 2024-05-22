@@ -10,6 +10,7 @@ Fetch("https://api.openweathermap.org/data/2.5/weather?q=+cityInput.value+&appid
 .then(data =>)
 
 
+
 //// Buttons ///
 
 document.getElementById('fWeather').addEventListener('click', function(){
@@ -23,3 +24,6 @@ document.getElementById('tWeather').addEventListener('click', function(){
     document.getElementById('todayDayDate').style.display = 'block';
     document.getElementById('FiveDaysWeather').style.display = 'none';
 } )
+
+////////////////////////
+
